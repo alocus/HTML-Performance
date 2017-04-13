@@ -23,4 +23,6 @@ This is like opening the URL in a hidden tab – all the resources are downloade
 # Preloading
 `<link rel="preload" href="image.png">`
 
+[W3 Preload](https://www.w3.org/TR/preload/)
+
 it's best to always download an asset, regardless of whether the browser thinks that's a good idea or not
