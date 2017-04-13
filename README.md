@@ -17,6 +17,7 @@ the browser can set up the necessary sockets ahead of time and eliminate the cos
 ## Prefetching
 - [Key CDN](https://www.keycdn.com/support/prefetching/)
 - [MSDN Support](https://msdn.microsoft.com/en-us/library/dn265039(v=vs.85).aspx)
+
 `<link rel="prefetch" href="image.png">`
 
 Unlike DNS prefetching, we're actually requesting and downloading that asset and *storing it in the cache*. This is a low priority fetch and the main use case is to speed up the next navigation rather than the current one.
