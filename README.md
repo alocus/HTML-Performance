@@ -32,7 +32,11 @@ Use when:
 This is like opening the URL in a hidden tab – all the resources are downloaded, the DOM is created, the page is laid out, the CSS is applied, the JavaScript is executed, etc.
 
 *Not supported by most browser*
-*Can't use Chrome devtool to check* 
+*Can't use Chrome devtool to check*
+
+Use when:
+ - don't use it
+ - use it to fetch one and only one page, then use prefetch for the rest of other resources.
 
 [Chrome Prerender Utility](chrome://net-internals/#prerender)
 
